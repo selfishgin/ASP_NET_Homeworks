@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head></head>
+<body>
+	<header>
+		<div style="display: flex; flex-direction: row; justify-content: center; align-items:center; background-color: lightblue">
+			<nav>
+				<ul style="list-style-type: none; display: flex; flex-direction: row; justify-content: space-between; gap:24px;">
+					<li><a href="~/Home/Drink">Drink</a></li>
+					<li><a href="~/Home/HotMeal">Hot Meal</a></li>
+					<li><a href="~/Home/FastFood">Fast Food</a></li>
+				</ul>
+			</nav>
+		</div>
+		<hr />
+	</header>
+	<div class="container">
+		<main role="main" class="pb-3">
+			@RenderBody()
+		</main>
+	</div>
+
+
+
+</body>
+</html>
